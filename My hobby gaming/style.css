@@ -1,0 +1,104 @@
+body{
+    margin:0;
+    padding-top:700px;
+      background: linear-gradient(to bottom right,#c71100 30%,#0cedd3 100%);
+}
+#welcome{
+    position: absolute;
+    overflow: hidden;
+    height: 800px;
+    color: crimson;
+    opacity: 0.9;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    display: table;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+}
+.profile{
+    height: 200px;
+    width: 300px;
+    border-radius: 10%;
+    margin-bottom: 50px;
+}
+.parallex-inner{
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+h1{
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 30px;
+    line-height: 1.2;
+    color: black;
+}
+h2{
+    font-weight: bold;
+    font-family: cursive;
+    font-size: 30px;
+    line-height: 1.2;
+}
+#name{
+    font-weight: bold;
+    font-family: cursive;
+    font-size: 40px;
+    line-height: 1.2;
+}
+#bio{
+    text-align: center
+}
+.line{
+    width: 70px;
+    height: 5px;
+    background-color: black;
+    margin-left: 635px;
+}
+.menu {
+    z-index: 10;
+    position: absolute;
+    top: 10px;
+    font-family: 'Comic Neue', cursive;
+    cursor: pointer;
+    list-style: none;
+    text-align: center;
+    margin-left: 350px;
+}
+.link {
+    float: left;
+    color: black;
+    font-size: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+}
+
+.link:hover {
+    font-size: 35px;
+}
+#favourite{
+    text-align: center;
+    margin-top: 250px;
+}
+html{
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+#inspiration{
+    text-align: center;
+    margin-top: 250px;
+}
+#contact{
+    text-align: center;
+}
+#inspire:hover{
+    height: 250px;
+}
